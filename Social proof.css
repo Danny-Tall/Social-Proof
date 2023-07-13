@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    padding: 100px 100px 0 100px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.box1{
+    width: 50%;
+    position: relative;
+    left: 70px;
+
+}
+
+.box1 h1{
+    width: 400px;
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: hsl(300, 43%, 22%);
+}
+
+.box1 span{
+    display: flex;
+    text-align: left;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(303, 10%, 53%);
+    width: 60%;
+    
+}
+
+.box2{
+    width: 50%;
+    padding-top: 40px;
+    position: relative;
+    left: 80px;
+}
+
+.box2 span{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+}
+
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: hsla(333, 80%, 67%, 0.222);
+    position: relative;
+}
+
+.guru{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: hsla(333, 80%, 67%, 0.222);
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.best-tech{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: hsla(333, 80%, 67%, 0.222);
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+
+
+.section2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    padding: 0px 100px 100px 100px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.smith{
+    width: 25%;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 70px;
+
+}
+
+.smith img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.smith-header{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 20px 40px;
+}
+
+.smith-header-text p{
+     padding-top: 5px;
+     color: hsl(333, 80%, 67%);
+     font-size: 16px;
+}
+
+.smith-header-text h3{
+    font-size: 16px;
+}
+
+
+.smith-header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.smith span{
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 20px;
+    word-spacing: 2px;
+    width: auto;
+    height: fit-content;
+    padding: 10px 40px 20px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.irene{
+    width: 25%;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 100px;
+    top: 20px;
+
+}
+
+.irene img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.irene-header{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 20px 40px;
+}
+
+.irene-header-text p{
+     padding-top: 5px;
+     color: hsl(333, 80%, 67%);
+     font-size: 16px;
+}
+
+.irene-header-text h3{
+    font-size: 16px;
+}
+
+
+.irene-header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.irene span{
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 20px;
+    word-spacing: 2px;
+    width: auto;
+    height: fit-content;
+    padding: 10px 40px 20px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.anne{
+    width: 25%;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 130px;
+    top: 35px;
+
+}
+
+.anne img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.anne-header{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 20px 40px;
+}
+
+.anne-header-text p{
+     padding-top: 5px;
+     color: hsl(333, 80%, 67%);
+     font-size: 16px;
+}
+
+.anne-header-text h3{
+    font-size: 16px;
+}
+
+
+.anne-header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.anne span{
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 20px;
+    word-spacing: 2px;
+    width: auto;
+    height: fit-content;
+    padding: 10px 40px 20px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 640px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 640px;
+    }
+    .section1{
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        padding: 0px;
+
+    }   
+    
+    .box1{
+        width: 100%;
+
+    }
+
+    .box1 h1{
+        width: 300px;
+        padding: 0;
+    }
+    
+    .box1 span{
+        width: 100%;
+    }
+
+    .box2{
+        width: 100%;
+        left: 0;
+    }
+
+    .box2 span{
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .reviews, .guru, .best-tech{
+        width: 640px;
+        flex-direction: column;
+        left: 0;
+        line-height: 20px;
+        padding: 20px 0 20px 0;
+    }
+
+    .section2{
+        flex-direction: column;
+        padding: 100px 0 0 0;
+    }
+
+    .smith, .irene, .anne{
+        width: 100%;
+        left: 0;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
